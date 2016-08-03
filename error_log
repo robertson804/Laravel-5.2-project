@@ -1,0 +1,3 @@
+[02-Mar-2016 18:56:24 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in phar:///home/postshipperprod/postshipper/composer.phar/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
+[02-Mar-2016 18:59:18 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in phar:///home/postshipperprod/postshipper/composer.phar/src/Composer/DependencyResolver/RuleWatchGraph.php on line 48
+[02-Mar-2016 19:02:49 America/Chicago] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in phar:///home/postshipperprod/postshipper/composer.phar/src/Composer/DependencyResolver/Solver.php on line 775

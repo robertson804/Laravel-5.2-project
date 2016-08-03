@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.6/phpunit.xsd"
+  backupGlobals="false"
+  bootstrap="vendor/autoload.php"
+  colors="true"
+  stderr="true"
+>
+
+  <testsuites>
+    <testsuite name="ISO3166 Test Suite">
+      <file>ISO3166Test.php</file>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist>
+      <file>ISO3166.php</file>
+    </whitelist>
+  </filter>
+
+  <logging>
+    <log type="coverage-text" target="php://stderr" />
+  </logging>
+
+</phpunit>

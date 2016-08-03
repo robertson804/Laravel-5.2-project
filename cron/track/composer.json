@@ -1,0 +1,15 @@
+{
+    "require": {
+        "alfallouji/dhl_api": "^0.2.8",
+        "gabrielbull/ups-api": "^0.7.7",
+        "maxirus/fedex": "dev-master",
+        "alcohol/iso3166": "^4.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+      "files": [
+        "lib/tracking.php"
+      ]
+    }
+}
